@@ -1,0 +1,146 @@
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 20;
+  overflow: hidden;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #226EFB;
+  margin: 15% auto;
+  padding: 40px 50px;
+  border: 1px solid #888;
+  max-width: 40%;
+  border-radius: 31px;
+  border: #226EFB 0px solid;
+  z-index: 20;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  color: #fff;
+  float: right;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Названия полей */
+.form-header{
+  margin-bottom: 10px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* Подписи полей */
+body .wpcf7-form-control-wrap .wpcf7-form-control {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+/* Вертикальные отступы между полями */
+.wpcf7-form-control  {
+  max-width: 90%;
+}
+
+/* Чекбоксы вертикально в столбик с небольшими отступами */
+body .wpcf7-form-control-wrap .wpcf7-checkbox {
+  display: flex;
+  flex-direction: column;
+}
+.check-box-header {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.wpcf7-list-item {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.wpcf7-radio {
+  display: flex;
+  flex-direction: column;
+}
+input[type="radio"] {
+  transform: scale(1.1); /* увеличивает размер чекбокса */
+  outline: none; /* убирает обводку */
+  box-shadow: none; /* убирает тень, которая может появляться в некоторых браузерах */
+}
+.wpcf7-not-valid-tip{
+  color: #000;
+}
+.wpcf7-submit {
+  min-width: 150px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  border-radius: 31px;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: none;
+  color: #000000;
+  background: #FCCA23;
+}
+.wpcf7-submit:hover {
+  background: linear-gradient(90deg, #FCCA23 0%, #FB7171 100%);
+  cursor: pointer;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .modal-content {
+    max-width: 60%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .modal-content {
+    margin: 10vh auto 0 auto;
+    padding: 3vh 3vh;
+    border: 1px solid #888;
+    max-width: 95%;
+    border-radius: 31px;
+    border: #226EFB 0px solid;
+    z-index: 1;
+  }
+  .wpcf7-submit:ac {
+    background: linear-gradient(90deg, #FCCA23 0%, #FB7171 100%);
+    cursor: pointer;
+  }
+}
