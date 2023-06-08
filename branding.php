@@ -41,7 +41,7 @@ Template Name: Branding
             data-speed="1"
             data-reverse="false"
             data-pausable="true">
-          <h1 class="section-essense-title"><span class="text">Trade offer <span class="black-text">essense</span></span>&nbsp&nbsp<span style="vertical-align: -10px;"><img src="https://dubai.fiveyellowstars.com/wp-content/uploads/2023/05/emoji-for-ticker.webp" alt="emoji" height="60" width="auto"></span></h1>
+          <h1 class="section-essense-title"><span class="text">Trade offer <span class="black-text">essense</span></span>&nbsp;&nbsp;<span style="vertical-align: -10px;"><img src="https://dubai.fiveyellowstars.com/wp-content/uploads/2023/06/emoji-for-ticker-small.webp" alt="emoji" height="60" width="60"></span></h1>
         </div>
       </div>
 
@@ -135,6 +135,3 @@ Template Name: Branding
   </section>
 
   <?php get_footer(); ?>
-  
-</body>
-</html>

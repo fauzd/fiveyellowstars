@@ -14,7 +14,7 @@ document.addEventListener('scroll', function(e) {
     if (rotation > 16) rotation = 16;
   } else {
     // for screens smaller than 768px
-    rotation = -57 + offset / 20; 
+    rotation = -40 + offset / 25; 
     if (rotation < 6) rotation = 6;
     if (rotation > 16) rotation = 16;
   }

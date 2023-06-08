@@ -17,17 +17,17 @@ add_action( 'wp_enqueue_scripts', function () {
   wp_enqueue_script( 'modal-form-script', get_template_directory_uri() . '/assets/js/modal.js', array(), '1.0.3', true );//<----------------------------------------Версия скрипта
 
   if (is_page('Mergers & Acquisitions')) {
-      wp_enqueue_style('mergersacquisitions', get_template_directory_uri() . '/assets/css/mergersacquisitions.css', array(), '1.0.5');//<-------------Версия стилей
+      wp_enqueue_style('mergersacquisitions', get_template_directory_uri() . '/assets/css/mergersacquisitions.css', array(), '1.0.6');//<-------------Версия стилей
       // wp_enqueue_script('mergersacquisitions', get_template_directory_uri() . '/assets/js/mergersacquisitions.js', array('marquee-lib'), '1.0.0', true);//<------Версия скрипта
   }
 
   if (is_page('Branding')) {
-    wp_enqueue_style('branding', get_template_directory_uri() . '/assets/css/branding.css', array(), '1.0.4');//<-------------------------------------Версия стилей
+    wp_enqueue_style('branding', get_template_directory_uri() . '/assets/css/branding.css', array(), '1.0.6');//<-------------------------------------Версия стилей
     wp_enqueue_script('branding', get_template_directory_uri() . '/assets/js/branding.js', array('marquee-lib'), '1.0.1', true);//<---------------------------------Версия скрипта
   }
 
   if (is_page('Crosspromotion')) {
-    wp_enqueue_style('crosspromotion', get_template_directory_uri() . '/assets/css/crosspromotion.css', array(), '1.0.4');//<-------------------------Версия стилей
+    wp_enqueue_style('crosspromotion', get_template_directory_uri() . '/assets/css/crosspromotion.css', array(), '1.0.6');//<-------------------------Версия стилей
     wp_enqueue_script('crosspromotion', get_template_directory_uri() . '/assets/js/crosspromotion.js', array('marquee-lib'), '1.0.1', true);//<---------------------Версия скрипта
   }
 

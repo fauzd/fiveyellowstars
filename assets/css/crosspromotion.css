@@ -87,9 +87,7 @@
 .section-problem-container {
   max-width: 510px;
   width: 100%;
-  margin-left: 120px;
-  margin-right: 100px;
-  margin-top: 56px;
+  margin: 56px 100px 56px  120px;
 }
 .section-problem-container h1 {
   margin: 0;
@@ -504,6 +502,7 @@
   transform: translate(-50%, -50%);
   width: 40%;
   height: auto;
+  z-index: 4;
 }
 .arrow {
   position: absolute;
@@ -1108,7 +1107,7 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='17' viewBox='0 0 20 17' fill='%23fff'%3E%3Cpath d='M12.596 17L11.4812 15.9384L17.8802 9.29397L-1.62501e-06 9.29396L-1.34818e-06 7.71067L17.8933 7.71067L11.4681 1.06167L12.6092 2.20466e-06L20 7.71067L20 9.29397L12.596 17Z'/%3E%3C/svg%3E");
   background-size: 80%;
   background-repeat: no-repeat;
-  background-position: 0 1vw;
+  background-position: 0 0.3em;
   margin-right: 0;
 }
 .container-useful > div {
@@ -1129,7 +1128,7 @@
 .tor {
   position: absolute;
   top: -10vw;
-  left: 0;
+  left: 5vw;
   width: 70vw;
   max-width: 400px;
   height: auto;
@@ -1140,6 +1139,7 @@
   height: auto;
   top: -10vw;
   left: 30vw;
+  z-index: -1;
 }
 .ufo {
   width: 20vw;

@@ -495,6 +495,7 @@ body {
 
 .section-useful {
   background-color: #FCCA23;
+  z-index: 1;
   /* min-height: 822px; */
 }
 
@@ -559,6 +560,7 @@ body {
 .section-useful-images {
   position: relative;
   width: 50%;
+  z-index: 1;
 }
 
 .section-useful-images-centerer {
@@ -599,6 +601,7 @@ body {
   transform: translate(-50%, -50%);
   width: 40%;
   height: auto;
+  z-index: 4;
 }
 
 .heart {
@@ -693,7 +696,7 @@ body {
   background: #226EFB;
   color: #fff;
 }
-/* ---------------------------------------------------------------------------1024-1220----------------------------------------------------- */
+/* ---------------------------------------------------------------------------1025-1220----------------------------------------------------- */
 @media (min-width: 1025px) and (max-width: 1220px) {
   .container {
     padding: 0 50px;
@@ -742,7 +745,8 @@ body {
   }
 
   .section-useful-images-centerer {
-    top: 60%;
+    top: 25vw;
+    width: 40vw;
   }
   
   .section-useful-list{
@@ -1127,16 +1131,16 @@ body {
 .section-useful {
   position: relative;
   padding: 3vh;
-  z-index: -2;
+  z-index: 1;
 }
 .container-useful {
   flex-direction: column;
   justify-content: flex-start;
   min-height: auto;
+  z-index: 1;
 }
 .section-useful-text {
   width: 100%;
-  z-index: -1;
 }
 .container-useful-title {
   margin: 0;
@@ -1161,7 +1165,7 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='17' viewBox='0 0 20 17' fill='%23000'%3E%3Cpath d='M12.596 17L11.4812 15.9384L17.8802 9.29397L-1.62501e-06 9.29396L-1.34818e-06 7.71067L17.8933 7.71067L11.4681 1.06167L12.6092 2.20466e-06L20 7.71067L20 9.29397L12.596 17Z'/%3E%3C/svg%3E");
   background-size: 80%;
   background-repeat: no-repeat;
-  background-position: 0 1vw;
+  background-position: 0 0.2em;
   margin-right: 0;
 }
 .container-useful > div {
@@ -1170,17 +1174,16 @@ body {
 .section-useful-images {
   height: 50vh;
   width: 100%;
-
 }
 .section-useful-images-centerer {
   position: relative;
   width: 100%;
-  height: 60%;
-  max-width: auto 0;
-  z-index: 0;
+  height: 45vw;
+  margin-top: -10vw;
+  z-index: 1;
 }
 .tor {
-  position: absolute;
+  /* position: absolute; */
   top: 5vh;
   left: 10vw;
   width: 70vw;
